@@ -149,7 +149,7 @@ header{
 
 /*////////// NAVBAR //////////*/
 
-#navar{
+#navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -157,6 +157,17 @@ header{
   z-index: 2;
   border-bottom: 1px solid #ccc;
   text-align: center;
+}
+
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+  display: inline-block;
+  width: 16.6666667%;
+  margin: 0;
+  padding: 22px 0;
 }
 
 /*////////// LOGO //////////*/
